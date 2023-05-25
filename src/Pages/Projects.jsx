@@ -1,13 +1,26 @@
 import React from "react";
+import { Jsme } from 'jsme-react'
+
 
 
 const Projects = () => {
   return (
-    <div id="Projects" style={{height:"800px"}}>
-      <h1 style={{fontSize:"50px",padding:"20%"}}>
-        new pridiction
-      </h1>
-    </div>
+   <div>
+        <Jsme
+          width="500px"
+          height="400px"
+          options={{
+            // JSME options can be provided here
+            // For example:
+            options: 'star'
+          }}
+          onChange={(jsme) => {
+            // Handle JSME structure change
+            console.log('JSME structure:', jsme);
+          }}
+        />
+      </div>
+
   );
 };
 
