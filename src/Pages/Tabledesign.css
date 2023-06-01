@@ -1,0 +1,20 @@
+.first{
+    width: 800px;
+    height: 200px;
+    border-collapse: collapse;
+  }
+  th {
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 4px black;
+  }
+  td {
+    text-align: center;
+    border: 2px solid black;
+    height: 20px;
+    width: 40px;
+    box-shadow: 0 2px 4px black;
+
+  }
